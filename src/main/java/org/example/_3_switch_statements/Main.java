@@ -24,6 +24,20 @@ public class Main {
             default:
                 System.out.println("the value of a is not 1, 2, or 3");
         }
+
+        switch (name){
+            case "Andrew":
+                System.out.println("The name of the user is Andrew");
+                break;
+            case "Tom":
+                System.out.println("The name of the user is Tom");
+                break;
+            case "Ann":
+                System.out.println("The name of the user is Ann");
+                break;
+            default:
+                System.out.println("The name of the user is not Andrew, Tom, or Ann");
+        }
     }
 
 }
