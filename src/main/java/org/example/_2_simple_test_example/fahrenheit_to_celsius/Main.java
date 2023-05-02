@@ -1,4 +1,4 @@
-package org.example.fahrenheit_to_celsius;
+package org.example._2_simple_test_example.fahrenheit_to_celsius;
 
 public class Main {
     public static void main(String[] args) {
