@@ -39,5 +39,18 @@ public class Main {
         }
         System.out.println("Break has taken you out of the block of the block");
 
+        System.out.println("First for loop, counter controlled..>>");
+        for (counter = 0; counter < 3; counter++){
+            System.out.println("The counter value is " + counter);
+        }
+
+        //is also possible to start the counter outside the for loop
+        //*** NEW TRICK LEARNED ***
+        counter = 100;
+        for ( ; counter >=0;){
+            System.out.println("The counter value = " + counter);
+            counter = counter - 30;  //effectively counts backwards in steps of 30
+        }
+
     }
 }
