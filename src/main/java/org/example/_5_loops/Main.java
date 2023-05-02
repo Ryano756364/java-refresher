@@ -52,5 +52,14 @@ public class Main {
             counter = counter - 30;  //effectively counts backwards in steps of 30
         }
 
+        //do while loop
+        counter = 1;
+        do {
+            if ((counter % 2) == 0) {
+                System.out.println("Number = " + counter);  //prints out only even numbers
+            }
+            counter ++;
+        } while (counter < 21);  //this is known as a sentinel loop
+
     }
 }
